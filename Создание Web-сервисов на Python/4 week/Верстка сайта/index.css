@@ -1,0 +1,65 @@
+.avatar {
+    width: 100%;
+    max-width: 100px;
+    min-width: 30px;
+    display: block;
+}
+.tag {
+    text-decoration: underline;
+}
+.answer {
+    border: 1px solid gray;
+    padding: 10px 15px;
+}
+.count_1, .count_2, .count_3 {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    min-width: 30px;
+    text-align: center;
+}
+.plus_1, .plus_2, .plus_3 {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+}
+.minus_1, .minus_2, .minus_3 {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+.minus_1:hover, .minus_2:hover, .minus_3:hover{
+    background-color: #717fe0 !important;
+}
+.plus_1:hover, .plus_2:hover, .plus_3:hover{
+    background-color: #717fe0 !important;
+}
+span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+input{  
+    border: 0;
+    width: 1px;
+}
+input:disabled{
+    background-color:white;
+}
+         

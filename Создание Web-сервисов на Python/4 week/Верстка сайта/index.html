@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Stackoverflow</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 44%;">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Log in <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr style="margin-top: 90px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <ul class="list-unstyled">
+                    <li class="media">
+                        <div>
+                            <img src="https://forum.develop-soft.ru/images/avatars/random/default-avatar.svg"
+                                class="mr-5 avatar" alt="avatar">
+                            <div class="qty mt-2">
+                                <span class="plus_1 bg-dark">+</span>
+                                <input type="number" class="count_1" name="qty" value="5">
+                                <span class="minus_1 bg-dark">-</span>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">How to build a moon park?</h5>
+                            <p>Lorem ipsum - dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p><b>Tags</b>: <a href="#" class="tag">black-jack</a> <a href="#" class="tag">bender</a>
+                            </p>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="media my-4 answer">
+                        <div>
+                            <img src="https://yt3.ggpht.com/a/AATXAJzdI5WLHrOaaoZuFM0BtjjAU8MQuSkBHE80hg=s900-c-k-c0xffffffff-no-rj-mo"
+                                class="mr-5 avatar" alt="avatar">
+                            <div class="qty mt-2">
+                                <span class="plus_2 bg-dark">+</span>
+                                <input type="number" class="count_2" name="qty" value="5">
+                                <span class="minus_2 bg-dark">-</span>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <p>First of all I would lake to thank you for the invitation to
+                                participate in such a ... Russia is the huge territory which
+                                in many respects needs to be render habitable.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="media my-4 answer">
+                        <div>
+                            <img src="https://yt3.ggpht.com/a/AATXAJzdI5WLHrOaaoZuFM0BtjjAU8MQuSkBHE80hg=s900-c-k-c0xffffffff-no-rj-mo"
+                                class="mr-5 avatar" alt="avatar">
+                            <div class="qty mt-2">
+                                <span class="plus_3 bg-dark">+</span>
+                                <input type="number" class="count_3" name="qty" value="3">
+                                <span class="minus_3 bg-dark">-</span>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <p>First of all I would lake to thank you for the invitation to
+                                participate in such a ... Russia is the huge territory which
+                                in many respects needs to be render habitable.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleTextarea" rows="3"
+                        placeholder="Enter your answer here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Answer</button>
+            </div>
+            <div class="col-2" style="padding-left: 4%;">
+                <h5>Popular tags</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">coursera</a></li>
+                    <li><a href="#">python</a></li>
+                    <li><a href="#">mysql</a></li>
+                    <li><a href="#">django</a></li>
+                </ul>
+                <h5>Best members</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Mr. Freeman</a></li>
+                    <li><a href="#">Dr. House</a></li>
+                    <li><a href="#">Bender</a></li>
+                    <li><a href="#">Queen Victoria</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer class="page-footer">
+        <div class="footer-copyright text-center py-3">© 2020</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.count_1').prop('disabled', true);
+            $(document).on('click', '.plus_1', function () {
+                $('.count_1').val(parseInt($('.count_1').val()) + 1);
+            });
+            $(document).on('click', '.minus_1', function () {
+                $('.count_1').val(parseInt($('.count_1').val()) - 1);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.count_2').prop('disabled', true);
+            $(document).on('click', '.plus_2', function () {
+                $('.count_2').val(parseInt($('.count_2').val()) + 1);
+            });
+            $(document).on('click', '.minus_2', function () {
+                $('.count_2').val(parseInt($('.count_2').val()) - 1);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.count_3').prop('disabled', true);
+            $(document).on('click', '.plus_3', function () {
+                $('.count_3').val(parseInt($('.count_3').val()) + 1);
+            });
+            $(document).on('click', '.minus_3', function () {
+                $('.count_3').val(parseInt($('.count_3').val()) - 1);
+            });
+        });
+    </script>
+</body>
+</html>
